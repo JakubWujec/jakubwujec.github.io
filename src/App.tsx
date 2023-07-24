@@ -1,10 +1,13 @@
+import Contact from "./components/Contact"
+
 function App() {
 
   return (
-    <div className="bg-sky-600 h-full">
+    <div>
       <div>
         Hello world
       </div>
+      <Contact></Contact>
     </div>
   )
 }
