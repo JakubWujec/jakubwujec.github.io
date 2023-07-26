@@ -22,7 +22,7 @@ const CONTACT_INFO = [
 
 export default function Footer() {
   return (
-    <footer id="contact" className="w-full px-8 pb-12 pt-8 mt-6 bg-purple-950 text-white">
+    <footer id="contact" className="w-full px-8 pt-8 pb-16 bg-purple-950 text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 p-4">Contact</h2>
         <div className="flex flex-column justify-around items-stretch flex-wrap gap-4">
