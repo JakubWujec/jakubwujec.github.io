@@ -1,5 +1,5 @@
 import About from "./components/About"
-import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import Experience from "./components/Experience"
 import Header from "./components/Header"
 
@@ -11,8 +11,8 @@ function App() {
       <main className="flex flex-col">
         <About></About>
         <Experience></Experience>
-        <Contact></Contact>
       </main>
+      <Footer></Footer>
     </div >
   )
 }
