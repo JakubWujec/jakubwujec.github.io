@@ -8,12 +8,11 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <main>
+      <main className="flex flex-col">
         <About></About>
         <Experience></Experience>
         <Contact></Contact>
       </main>
-
     </div >
   )
 }
